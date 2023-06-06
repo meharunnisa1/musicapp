@@ -1,0 +1,56 @@
+*{
+  background:linear-gradient(black,black)
+}
+.music-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(https://i.pinimg.com/originals/96/6e/ee/966eee3e84633a1b1257a342a6c21163.gif);
+  height:100vh;
+  background-size: cover;
+
+}
+
+.song-list {
+  list-style: none;
+  padding: 4%;
+  margin-top: 20px;
+}
+
+.song-list li {
+  cursor: pointer;
+  padding: 0%;
+  color:greenyellow;
+  font-size: large;
+  justify-content: space-between;
+  display: flex;
+
+}
+.song-list li:hover{
+  background-color:white;
+  color:plum;
+}
+.headin{
+  display: flex;
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  color:aqua;
+  background-color: black;
+  border: aquamarine 1px solid;
+  padding: 2%;
+  border-radius: 5%;
+}
+.headin:hover{
+  background-color: aqua;
+  color:hotpink;
+  border: 1px solid red;
+}
+
+
+
+.audio::-webkit-media-controls-play-button,
+     audio::-webkit-media-controls-panel {
+     background-color: bisque;
+     color:palevioletred;
+     }
+
